@@ -18,7 +18,7 @@ const Header = () => {
       <NavLink to='/home'>Home</NavLink>
       <NavLink to='/about'>About</NavLink>
       <NavLink to='/courses'>Courses</NavLink>
-      <NavLink to='/Contact'>Contact</NavLink>
+      <NavLink to='/blog'>Blog</NavLink>
       
     </Nav>
     <Form className="d-flex ms-auto">

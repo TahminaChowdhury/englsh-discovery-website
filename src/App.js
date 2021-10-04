@@ -12,8 +12,9 @@ import Footer from './components/Footer/Footer'
 import Home from './components/Home/Home'
 import About from './components/About/About'
 import Services from './components/Services/Services'
-import Contact from './components/Contact/Contact'
 import NotFound from './components/NotFound/NotFound'
+import { Container } from 'react-bootstrap';
+import Blog from './components/Blog/Blog';
 
 function App() {
   return (
@@ -30,14 +31,17 @@ function App() {
           <Route path="/courses">
             <Services></Services>
           </Route>
-          <Route path="/contact">
-            <Contact></Contact>
+          <Route path="/Blog">
+            <Blog></Blog>
+          </Route>
+          <Route exact path="/">
+            <Container></Container>
           </Route>
           <Route exact path ="*">
             <NotFound></NotFound>
           </Route>
         </Switch>
-          <Footer></Footer>
+        <Footer></Footer>
       </Router>
     </div>
   );

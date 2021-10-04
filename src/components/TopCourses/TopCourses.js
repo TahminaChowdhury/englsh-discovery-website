@@ -6,9 +6,11 @@ import Rating from 'react-rating';
 const TopCourses = (props) => {
     const {img, name, level, rating, review, price} = props.course;
     return (
-            <Card>
-                <Card.Img variant="top" src={img} />
-                    <Card.Body>
+            <Col md={3}>
+                <div className="mb-5">
+                        <Card className="mb-5">
+                        <Card.Img variant="top" src={img} />
+                            <Card.Body>
                             <Card.Text>
                             <h5 className="py-3 text-color">{level}</h5>
                             <h5>{name}</h5>
@@ -22,14 +24,17 @@ const TopCourses = (props) => {
                             </span>
                             <span className=""><i class="fas fa-user"></i> ({review})</span>
                             </p>
-                            <div className="d-flex justify-content-between pt-3 top-border ">
+                            <div className="text-center pt-3 top-border ">
                             <h5>${price}/Lifetime</h5>
-                            <button className="btn button">Enroll Now</button>
+                            <button className="btn button mt-2">Enroll Now</button>
                             </div>
                             </Card.Text>
-                    </Card.Body>
-            </Card>
-
+                            </Card.Body>
+                        </Card>
+                        
+                </div>
+        </Col>
+            
     );
 };
 

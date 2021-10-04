@@ -13,6 +13,8 @@ const Services = () => {
         <Container>
             <Row className="my-5">
                 <div className="bg-dark text-center p-5">
+                    <h4 className="text-white">All the English Courses you need
+                    General English, Grammar, Exam Preparation, Business English & other Specialist English Courses</h4>
                     <h1 className="text-color">Courses</h1>
                     <small className="text-white">Home/Courses</small>
                 </div>

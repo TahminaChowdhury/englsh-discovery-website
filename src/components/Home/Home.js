@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import TopCourses from '../TopCourses/TopCourses';
+import img from '../../image/img-1.jpg'
 
 
 const Home = () => {
@@ -15,14 +16,18 @@ const Home = () => {
     return (
         <div>
             <Container>
+                <div className="text-center mb-5">
+                <img src={img} alt="" />
+                    
+                </div>
                 <Row>
                     
-                    <h1 className="my-5">Our Top Courses</h1>
-                    <Col md={9}>
+                    <h1 className="my-5 text-color">Our Top Courses</h1>
+                    
                     {
                     courses.map(course => <TopCourses course={course}></TopCourses>)
                     }
-                    </Col>
+                    
                 </Row>
             </Container>
         </div>

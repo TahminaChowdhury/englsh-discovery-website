@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
-            
-        </div>
+        <footer className="bg-dark">
+            <h1>This is footer</h1>
+        </footer>
     );
 };
 

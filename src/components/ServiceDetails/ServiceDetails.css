@@ -1,0 +1,17 @@
+
+.text-color{
+    color: rgb(5, 216, 5);
+}
+.top-border{
+    border-top: 1px solid lightslategray;
+}
+.icon-color{
+    color: gold;
+}
+.review{
+    margin-left: 150px;
+}
+.button{
+    background-color: rgb(9, 156, 9);
+    color: white;
+}

@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <div className="footer bg-dark py-3 text-center">
+        <footer className="bg-dark py-3 text-center">
             <div className="ps-5 d-flex justify-content-between">
             <div className="text-start">
                 <p><span className="text-color fs-1">English </span><small className="text-white">Discovery</small></p>
@@ -26,7 +26,7 @@ const Footer = () => {
             <span><i class="fab fa-youtube social-icon"></i></span>
             <br />
             <small className="text-white pt-3">© English Discovery 2021. All Rights Reserved</small>
-        </div>
+        </footer>
     );
 };
 

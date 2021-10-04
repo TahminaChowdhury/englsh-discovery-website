@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <div className=" footer sticky-bottom bg-dark py-3 text-center">
+        <div className="footer bg-dark py-3 text-center">
             <div className="ps-5 d-flex justify-content-between">
             <div className="text-start">
                 <p><span className="text-color fs-1">English </span><small className="text-white">Discovery</small></p>

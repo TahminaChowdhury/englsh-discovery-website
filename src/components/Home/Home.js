@@ -21,13 +21,11 @@ const Home = () => {
                     
                 </div>
                 <Row>
-                    
                     <h1 className="my-5 text-color">Our Top Courses</h1>
                     
                     {
                     courses.map(course => <TopCourses course={course}></TopCourses>)
                     }
-                    
                 </Row>
             </Container>
         </div>

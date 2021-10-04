@@ -1,5 +1,3 @@
-
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
@@ -21,26 +19,35 @@ function App() {
     <div>
       <Router>
         <Header></Header>
+
         <Switch>
-          <Route path="/home">
+
+          <Route exact path="/home">
             <Home></Home>
           </Route>
-          <Route path="/about">
+
+          <Route exact path="/about">
             <About></About>
           </Route>
-          <Route path="/courses">
+
+          <Route exact path="/courses">
             <Services></Services>
           </Route>
-          <Route path="/Blog">
+
+          <Route exact path="/Blog">
             <Blog></Blog>
           </Route>
+
           <Route exact path="/">
             <Container></Container>
           </Route>
+
           <Route exact path ="*">
             <NotFound></NotFound>
           </Route>
+
         </Switch>
+
         <Footer></Footer>
       </Router>
     </div>

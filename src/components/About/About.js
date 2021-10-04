@@ -35,7 +35,7 @@ const About = () => {
                 </Col>
             </Row>
             <Row className="my-5">
-                <h1 className="my-5 text-color">Meet Our Team</h1>
+                <h1 className="my-5 text-color fw-bold">Meet Our Team</h1>
                 <Col md={4}>
                 <Card>
                     <Card.Img variant="top" src={img3} />

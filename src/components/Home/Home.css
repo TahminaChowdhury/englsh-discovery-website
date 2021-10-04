@@ -1,4 +1,12 @@
-.image{
-    height: 500px;
+.bg-image{
+    background-image: url('../../image/top-view-desk-with-laptop-coffee_23-2148110240.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
 
+.sign-up-button{
+    margin-top: 450px;
+    background-color: rgb(9, 156, 9);
+    color: white;
 }

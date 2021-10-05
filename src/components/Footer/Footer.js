@@ -25,7 +25,7 @@ const Footer = () => {
             <span><i class="fab fa-twitter social-icon"></i></span>
             <span><i class="fab fa-youtube social-icon"></i></span>
             <br />
-            <small className="text-white pt-3">© English Discovery 2021. All Rights Reserved</small>
+            <small className="text-white">© English Discovery 2021. All Rights Reserved</small>
         </footer>
     );
 };

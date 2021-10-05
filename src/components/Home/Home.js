@@ -36,7 +36,7 @@ const Home = () => {
                         Whether you are looking for a new job or planning to travel the world, studying English can help you progress in life both personally and professionally. You can compete in the global job market, increase your career skills and start to meet people around the world.
                         <br />
                         However, do you know why learning English is so important? Here are ten good reasons to take an English language course.</p>
-                        <Link to="" className="text-color">Read More <i class="fas fa-arrow-right"></i></Link>
+                        <Link to="/" className="text-color">Read More <i class="fas fa-arrow-right"></i></Link>
                     </div>
                     <div>
                         <img src={img} alt="" />

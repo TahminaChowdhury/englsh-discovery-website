@@ -10,7 +10,7 @@ import img3 from '../../image/ins-3.jpg'
 const About = () => {
     return (
         <Container className="text-center">
-           <div className="bg-dark pb-5">
+           <div className="bg-dark p-5 mt-5">
                 <h1 className="text-center fs-1 text-color">About Us</h1>
                 <small className="text-white">Home/About</small>
            </div>
@@ -18,7 +18,7 @@ const About = () => {
                 <Col md={4}>
                     <p className="fs-2 text-color">Quick Results</p>
                     <div>
-                    <p>Test Your English and get a recommendation on where to start.Explore and try our lessons. Choose your Planwhen ready.Start 1 course or as many as you like.Enjoy total learning flexibility.</p>
+                    <p>Test Your English and get a recommendation on where to start.Explore and try our lessons. Choose your Planwhen ready.Start 1 course or as many as you like.Enjoy total learning flexibility.Our full online English courses are created by experienced English teachers and allow students to work through high quality video lessons at any time on any device.</p>
                     </div>
                 </Col>
                 <Col md={4}>
@@ -44,7 +44,9 @@ const About = () => {
                     <Card.Text>
                     Hello!..My nmae is Maria.If you're having difficulties in speaking, writing and reading, I can definitely help you. If you're tired of studying... Don't Be! I'll make sure you'll enjoy studying and at the same time educational.
                     </Card.Text>
-
+                    <span><i class="fab fa-facebook fs-3 me-3"></i></span>
+                    <span><i class="fab fa-instagram fs-3 me-3"></i></span>
+                    <span><i class="fab fa-twitter fs-3 me-3"></i></span>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -56,6 +58,9 @@ const About = () => {
                     <Card.Text>
                     HIi!...I'm Lucas.I know English can be difficult and boring, but I will do my best to make it as enjoyable as possible so relax.We can talk about anything and everything under the sun.. I hope to see you in my class! Best wishes for your exiciting journey!
                     </Card.Text>
+                    <span><i class="fab fa-facebook fs-3 me-3"></i></span>
+                    <span><i class="fab fa-instagram fs-3 me-3"></i></span>
+                    <span><i class="fab fa-twitter fs-3 me-3"></i></span>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -67,6 +72,9 @@ const About = () => {
                     <Card.Text>
                     Hello! I"M Sophia.I'm here to help you develop your skills in speaking the English language. Guaranteed, that I will be of great assistance. I'll make our class as lively as possible and we can even be friends. Hope to see you in my class.
                     </Card.Text>
+                    <span><i class="fab fa-facebook fs-3 me-3"></i></span>
+                    <span><i class="fab fa-instagram fs-3 me-3"></i></span>
+                    <span><i class="fab fa-twitter fs-3 me-3"></i></span>
                     </Card.Body>
                 </Card>
                 </Col>

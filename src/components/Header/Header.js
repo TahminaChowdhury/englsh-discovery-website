@@ -10,9 +10,7 @@ const Header = () => {
   }
     return (
         <Navbar bg="dark" expand="lg" className="p-3">
-        <Navbar.Brand href="#" className="text-white"><span className="text-color fs-1">English</span><small>Discovery</small></Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Brand className="text-white"><span className="text-color fs-1">English</span><small>Discovery</small></Navbar.Brand>
         <Nav
         className='nav-bar ms-auto fs-5'>
             <NavLink to='/home' activeStyle={activeStyle}>Home</NavLink>
@@ -30,7 +28,6 @@ const Header = () => {
             />
             <button className="btn button"><i class="fas fa-search"></i></button>
           </Form>
-        </Navbar.Collapse>
       </Navbar>
           );
       };

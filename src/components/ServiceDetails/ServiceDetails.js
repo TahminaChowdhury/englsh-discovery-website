@@ -31,7 +31,7 @@ const ServiceDetails = (props) => {
                             </Card.Text>
                     </Card.Body>
             </Card>
-        
+                      
         </Col>
     );
 };
